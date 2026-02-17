@@ -1,0 +1,63 @@
+Student Understanding Questions
+Part 1 – Inheritance
+1 What does it mean that Dog, Cat, and Lizard extend the Pet class?
+2 Why do we use super(name); inside the constructor of Dog?
+3 What would happen if we removed extends Pet from the Dog class?
+4 Why can we store Dog, Cat, and Lizard objects inside a Pet[] array?
+________________________________________
+Part 2 – Encapsulation
+5 Why is the variable name declared as private inside the Pet class?
+6 Why must we use getName() instead of writing pet.name?
+7 What is the purpose of a setter method like setName()?
+________________________________________
+Part 3 – Polymorphism
+8 Why does System.out.println(pets[i]); print different text for Dog, Cat, and Lizard?
+9 What is method overriding?
+10 At runtime, how does Java decide which toString() method to call? (Dynamic method dispatch)
+________________________________________
+Part 4 – Arrays
+11 What does pets.length represent?
+12 Why do we write pets.length - 1 in the sorting loop?
+13 What would happen if we tried to access pets[pets.length]?
+________________________________________
+Part 5 – Sorting
+14 Why do we need two nested for-loops in the bubble sort method?
+15 Why do we use a temporary variable (temp) when swapping two objects?
+16 What does compareTo() return when the first name comes after the second name alphabetically?
+________________________________________
+Part 6 – Input Validation
+17 Why do we use sc.hasNextInt() before calling nextInt()?
+18 Why do we call sc.nextLine() after nextInt()?
+19 Why is equalsIgnoreCase() better than equals() when checking pet type?
+________________________________________
+Part 7 – Structure & Design
+20 Why is it good practice to divide the main method into smaller helper methods like askForPetCount() and registerPets()?
+
+
+🐦 Assignment: Extend the PetAdoptionCenter with a Bird Class
+Part 1 – Create the Bird Class
+Requirements:
+Create a new class called Bird. The class must inherit from Pet
+Add a new private attribute:
+    double wingSpan
+Create:
+A constructor
+Getter and setter methods
+Override the toString() method
+    The toString() method should print:
+        Name
+        Wing span
+A bird sound (for example: "chirp chirp!")
+
+Part 2 – Modify the PetAdoptionCenter
+You must update the program so that:
+The user can type "bird" when registering a pet
+The program asks:
+    Enter wing span in meters:
+A Bird object is created and stored in the Pet[] array
+
+Part 3 – Validation
+Make sure:
+Wing span must be greater than 0
+If the user enters invalid input, show a message and ask again.
+A message could be: "Invalid number!"
