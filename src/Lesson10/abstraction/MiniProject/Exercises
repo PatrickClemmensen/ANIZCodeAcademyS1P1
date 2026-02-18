@@ -33,5 +33,6 @@ Bed
 Each class must:
 Extend Furniture
 Implement the abstract methods
-Possibly add extra attributes (Chair: private boolean hasArmRest; Table: private int numberOfLegs; Sofa: private int seats; Bed: private String size;)
+Possibly add extra attributes (Chair: private boolean hasArmRest;
+Table: private int numberOfLegs; Sofa: private int seats; Bed: private String size;)
 

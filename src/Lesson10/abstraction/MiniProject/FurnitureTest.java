@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class FurnitureTest {
 
-    /* REMOVE DENNE
+
 
     public static void main(String[] args) {
 
@@ -32,6 +32,7 @@ public class FurnitureTest {
 
         sc.close();
     }
+
 
     // Ask user for number of furniture items
     public static int askForCount(Scanner sc) {
@@ -127,5 +128,5 @@ public class FurnitureTest {
         }
     }
 
-     REMOVE DENNE */
+
 }
