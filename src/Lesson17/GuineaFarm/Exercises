@@ -1,0 +1,51 @@
+🐹 Assignment Case
+Guinea Pig Breeding Manager
+Story
+You have just been hired as a junior Java developer by a small breeding company called Nordic Guinea Farm.
+The farm breeds guinea pigs for pet shops and private buyers across Scandinavia.
+Until now, the breeder has stored all information about the animals in simple spreadsheet files.
+Unfortunately, the system has become difficult to manage, and important data has been lost.
+To solve this problem, the breeder wants a Java application that can manage the herd locally.
+
+The application must:
+Load guinea pig data from a CSV file
+Allow the breeder to view the herd
+Sort animals by different attributes
+Support different types of guinea pigs
+Save updated data back to a CSV file
+
+Because the system will later be integrated into a larger animal management platform,
+it must be designed using clean Object-Oriented Programming principles.
+
+Program Requirements
+Your program must allow the breeder to:
+1️⃣ Automatically load guinea pigs
+When the program starts, it must:
+Read guinea pig data from a CSV file
+Store the animals in an ArrayList
+
+2️⃣ Support multiple guinea pig types
+The breeder works with different breeding categories:
+Type	Description
+PetGuineaPig	Normal guinea pigs sold as pets
+ShowGuineaPig	Special guinea pigs used in competitions
+
+Projekt Struktur
+guineafarm
+│
+├── app
+│     GuineaFarmApp.java
+│
+├── ui
+│     UserInterface.java
+│
+├── model
+│     GuineaPig.java
+│     Breed.java
+│     Color.java
+│
+├── service
+│     GuineaPigFileHandler.java
+│
+└── util
+      GuineaPigSorter.java
